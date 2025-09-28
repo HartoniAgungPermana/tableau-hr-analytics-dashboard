@@ -3,6 +3,7 @@
 <p align="center">
   <img src="resources/Dashboard Demo.gif" alt="HR Dashboard Demo" />
 </p>
+
 # 📌 **Project Overview**
 
 This project showcases an **interactive Tableau dashboard** built to analyze and visualize HR data. It leverages **Tableau’s advanced visualization and interactivity** to generate meaningful workforce insights.  
