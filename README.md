@@ -68,11 +68,15 @@ Users can **switch between views via navigation buttons**, simulating a **real-w
 - 🎨 **Design Principles** → Used a **dark theme with neon highlights** for a modern look, a **consistent side navigation** for easy access, and a **clear hierarchy** to balance KPIs, demographics, and details.  
 
 # 🔑 **Key Insights**
-- 🏢 Workforce distribution shows **Operations and Sales** as the largest departments.  
-- 🎓 Most employees hold a **Bachelor’s degree**.  
-- 💰 Higher education correlates with higher salaries, though a **gender gap exists** at certain levels.  
-- 👔 Employees aged **32–45** dominate **managerial roles**.  
-- 📋 The employee detail view makes it easy to track **tenure, salary progression, and performance**.  
+- 📈 **Strong Growth Trajectory**: The company is in a clear expansion phase, with **8,950 hires** significantly outnumbering **966 terminations**. This has resulted in a robust active workforce of **7,984 employees**.
+- 🏭 **Operations-Centric Business Model**: The **Operations department** is the largest by a substantial margin, indicating it is the core of the company's business function. This is followed by customer-facing departments like **Sales and Customer Service**.
+- 🌍 **Centralized Workforce with Key Hubs**: The majority of employees are based at the **Head Office (HQ)**, with **Illinois** and **Pennsylvania** serving as the largest regional locations. This points to **a centralized operational strategy**.
+- 👩‍🎓 **A Young and Educated Workforce**: The employee base is predominantly comprised of professionals in the **25-40 age range** who hold a **Bachelor's degree**. This suggests the company is successful at attracting and retaining early to mid-career talent.
+- 🎯 **Advanced Education Correlates with High Performance**: While Bachelor's degree holders are the largest group across all performance levels, employees with a **Master's degree** show a disproportionately high concentration in the "Good" and "Excellent" categories, suggesting **a link between advanced education and top-tier performance**.
+- ⚖️ **Healthy Gender Diversity**: The workforce maintains a near-even gender balance with **54% Male** and **46% Female** representation, indicating a commitment to gender diversity in hiring.
+- 💰 **Clear Salary Progression with Experience**: The **"Age & Salary"** scatter plot clearly demonstrates that **compensation increases with age and experience**. Key leadership roles, such as **IT Manager** and **Finance Manager**, are appropriately positioned as the highest earners.
+- 🎓 **Education as a Key Driver of Salary**: The dashboard shows a direct positive correlation between educational attainment and average salary, with earnings systematically increasing from **High School ($63K)** to **PhD ($93K)**.
+- 🚨 **Potential Gender Pay Gap Identified**: A critical insight from the "Gender & Education" chart is the apparent pay disparity at the Bachelor's degree level, where **males earn an average of $74K compared to females at $66K**. This is an actionable data point that warrants immediate HR review.   
 
 ➡️ *Additional insights can be discovered by applying filters.*  
 
