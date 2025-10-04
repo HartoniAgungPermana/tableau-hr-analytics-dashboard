@@ -1,4 +1,5 @@
 # 📊 **Tableau HR Dashboard — Portfolio Project**
+### [🌐 **View the Interactive Dashboard on Tableau Public**](https://public.tableau.com/views/HRPerformanceDashboard_17590246086830/SummaryDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 <p align="center">
   <img src="resources/Dashboard Demo.gif" alt="HR Dashboard Demo" />
@@ -6,79 +7,88 @@
 
 # 📌 **Project Overview**
 
-This project showcases an **interactive Tableau dashboard** built to analyze and visualize HR data. It leverages **Tableau’s advanced visualization and interactivity** to generate meaningful workforce insights.  
+This project presents a comprehensive HR Analytics Dashboard built in Tableau, designed to empower leadership with critical workforce insights for strategic decision-making. The dashboard transforms complex HR data into clear, actionable intelligence, focusing on key metrics related to employee demographics, performance, compensation, and organizational structure.
 
-Designed as a **portfolio project**, it highlights skills in **data visualization, business intelligence, and storytelling** with HR-related data.  
-
-The dashboard provides a **dual view**:
-- 🔎 **Summary View** → High-level HR performance insights and workforce distribution.  
-- 📋 **Detail View** → Employee-level records for deeper drill-down analysis.  
-
-Users can **switch between views via navigation buttons**, simulating a **real-world BI workflow** where executives toggle perspectives without leaving the dashboard.  
-
-# 🎯 **Objectives**
-- 📈 Track key HR metrics such as **employee count, hiring & termination trends, department distribution, and workforce by location**.  
-- 👥 Analyze **demographics (gender, education, age)** and their relationship to **performance and income**.  
-- 💰 Provide insights into **salary trends, education levels, and career progression**.  
-- 🔎 Enable drill-down into **individual employee details** for informed HR decision-making.  
+The solution provides a seamless user experience with two distinct views: a **high-level summary view** for executive oversight and a **detailed drill-down view** for HR managers, enabling a full spectrum of analysis from macro trends to individual employee data. 
 
 ## 📂 **Dataset**
 
+The dataset contains a valuable information about the company hr departement details.
+
 👉 [Access the dataset here](dataset.csv)
 
-# 🛠️ **Tools & Technologies**
-- 🖥️ **Tableau** → for dashboard creation and interactivity.  
-- 🖌️ **Photopea** → for editing resources to enhance dashboard visuals.  
-
-# 📑 **Dashboard Pages**
-
-## 1️⃣ **Summary Page (High-Level HR Insights)**
+# 💼 **Executive Summary**
 
 ![alt text](<resources/Summary Dashboard.png>)
 
-- 👤 **Active Employees** with hiring & termination trends.  
-- 🏢 **Department Breakdown** (Operations, Sales, IT, Finance, etc.).  
-- 📊 **Demographics** (gender split, age groups, education levels).  
-- 🎓 **Education & Performance** (education vs performance ratings).  
-- 💵 **Income Analysis** (salary by gender & education).  
-- 📉 **Age vs Salary** (scatter plot with job roles).  
-- 🌍 **Location Map** (HQ vs Branch workforce).  
-
-## 2️⃣ **Details Page (Employee-Level Data)**
-
 ![alt text](<resources/Details Dashboard.png>)
 
-- Interactive employee table with:  
-  - 🆔 **ID, Name, Job Title**  
-  - 📍 **Location**  
-  - 💰 **Salary**  
-  - ✅ **Status (Active/Inactive)**  
-  - 🎓 **Education & Age**  
-  - 📆 **Length of Employment**  
+This analysis of the company's workforce data has revealed four critical insights that require immediate strategic attention:
 
-- 🔎 Supports **searching and filtering** to simplify HR management tasks.  
+1. **High Growth & Strong Retention**: The company is in a significant expansion phase, with new hires (8,950) vastly outnumbering terminations (966). This indicates successful talent acquisition and a generally stable workforce of 7,984 active employees.
+2. **Operations-Centric Business Model**: The Operations department is the largest division by a significant margin, identifying it as the core of the business. The primary employee demographic is young (25-40 age range) and well-educated (Bachelor's degree), with a highly centralized workforce at the Head Office.
+3. **Advanced Education Correlates to Higher Performance**: Employees with a Master's degree are disproportionately represented in the "Good" and "Excellent" performance categories. This suggests that advanced education is a strong predictor of top-tier contributions within the organization.
+4. **Critical Gender Pay Gap Identified**: A notable compensation disparity exists at the Bachelor's degree level, where male employees earn an average of $74K compared to $66K for female employees. This represents a significant risk and an area for immediate review.
 
-## 🛠️ **Skills Showcased**
+# 💡 **Strategic Recomendations**
 
-- 🔄 **ETL Process** → Cleaned & transformed raw data (e.g., formatted salaries, standardized values) for analysis.  
-- 📊 **Data Visualization** → Applied the most effective chart types for trends, comparisons, and demographics.  
-- 🧮 **Calculated Fields & Parameters** → Created measures like **Age Group**, **Employment Status**, and **Active vs Inactive Employee**.  
-- 🎛️ **Filters** → Enabled interactive filtering for flexible annual analysis.  
-- 🗂️ **Dashboard Navigation** → Added buttons to toggle between Summary & Details, plus info and socials buttons for usability.  
-- 🎨 **Design Principles** → Used a **dark theme with neon highlights** for a modern look, a **consistent side navigation** for easy access, and a **clear hierarchy** to balance KPIs, demographics, and details.  
+Based on the executive summary, the following actions are recommended to optimize talent strategy and mitigate risks:
 
-# 🔑 **Key Insights**
-- 📈 **Strong Growth Trajectory**: The company is in a clear expansion phase, with **8,950 hires** significantly outnumbering **966 terminations**. This has resulted in a robust active workforce of **7,984 employees**.
-- 🏭 **Operations-Centric Business Model**: The **Operations department** is the largest by a substantial margin, indicating it is the core of the company's business function. This is followed by customer-facing departments like **Sales and Customer Service**.
-- 🌍 **Centralized Workforce with Key Hubs**: The majority of employees are based at the **Head Office (HQ)**, with **Illinois** and **Pennsylvania** serving as the largest regional locations. This points to **a centralized operational strategy**.
-- 👩‍🎓 **A Young and Educated Workforce**: The employee base is predominantly comprised of professionals in the **25-40 age range** who hold a **Bachelor's degree**. This suggests the company is successful at attracting and retaining early to mid-career talent.
-- 🎯 **Advanced Education Correlates with High Performance**: While Bachelor's degree holders are the largest group across all performance levels, employees with a **Master's degree** show a disproportionately high concentration in the "Good" and "Excellent" categories, suggesting **a link between advanced education and top-tier performance**.
-- ⚖️ **Healthy Gender Diversity**: The workforce maintains a near-even gender balance with **54% Male** and **46% Female** representation, indicating a commitment to gender diversity in hiring.
-- 💰 **Clear Salary Progression with Experience**: The **"Age & Salary"** scatter plot clearly demonstrates that **compensation increases with age and experience**. Key leadership roles, such as **IT Manager** and **Finance Manager**, are appropriately positioned as the highest earners.
-- 🎓 **Education as a Key Driver of Salary**: The dashboard shows a direct positive correlation between educational attainment and average salary, with earnings systematically increasing from **High School ($63K)** to **PhD ($93K)**.
-- 🚨 **Potential Gender Pay Gap Identified**: A critical insight from the "Gender & Education" chart is the apparent pay disparity at the Bachelor's degree level, where **males earn an average of $74K compared to females at $66K**. This is an actionable data point that warrants immediate HR review.   
+1. **Conduct an Urgent Pay Equity Audit**:  Immediately investigate the identified $8K salary gap between male and female employees. The audit should focus specifically on roles requiring a Bachelor's, Master's, and PhDs degree, as the data shows the disparity is concentrated in this cohort and does not appear at the High School. This targeted approach will be more efficient and address the root of the problem.
+2. **Enhance Recruitment & Retention for Advanced Degrees**: Develop targeted strategies to attract and retain talent with Master's degrees and PhDs, given their correlation with high performance. Consider enhancing tuition reimbursement programs or establishing partnerships with graduate schools.
+3. **Invest in Operations Department Leadership Pipeline**: As the largest and most critical department, a dedicated talent development program for Operations is essential. Focus on building leadership skills within this division to ensure long-term stability and succession planning.
+4. **Explore a Decentralized Workforce Strategy**: With a heavy concentration of employees at the Head Office, the company should evaluate the risks of a centralized model. A pilot program for hybrid or remote work could diversify geographic talent pools and improve business continuity.
 
-➡️ *Additional insights can be discovered by applying filters.*  
+# 🖥️ **Tools & Technologies**
+
+- **Tableau**: Used for all data visualization, dashboarding, and interactivity.  
+- **Photopea**: Utilized for editing and creating visual assets to enhance the dashboard's user interface.
+
+# 🛠️ **Dashboard Features & Technical Skills**
+
+1. **ETL & Data Preparation**: Cleaned and transformed raw data, formatting salaries, standardizing fields, and creating new measures for robust analysis.
+2. **Advanced Calculated Fields**: Created calculated fields in Tableau for Age Group, Employment Status, and dynamic KPIs like Active vs Inactive Employees.
+3. **Data Visualization**: Applied best practices in chart selection (bar charts for comparison, scatter plots for correlation, maps for location) to tell a clear story.
+4. **Interactive Dashboard**: Designed a dual-view dashboard with intuitive navigation buttons, filters, and tooltips, allowing users to switch between executive summaries and granular details seamlessly.
+5. **UI/UX Design Principles**: 	Implemented a modern dark-themed UI with a clear visual hierarchy, consistent navigation, and neon highlights to guide user attention to key insights.
+6. **Business Acumen**: Translated raw data into a strategic narrative, identifying not just trends but also actionable business recommendations.
+
+# **What I Learned**
+
+Throughout this project, I sharpened my understanding of HR performance in a company and enhanced my technical skills in **tableau**, helping me to visualize and analyze the data and turn it into meaningful insights.
+
+Here are some important takeaways:
+
+- 📈 **Translating BI Performance**
+
+   This project sharpened my skills to extracting valuable information and insights from chaotic raw data. Giving a broad and depth understanding about *what's going on* in the HR performance of the company.
+
+- 🎯 **Formulate Strategic Recommendations**
+
+   Transform the understanding of the HR performance gained from translating the data into actionable recomendation plan to encounter all the problems faced by the company and increase the company value. Giving a *so what* aspect of the extracted insights.
+
+- 📊 **Designing Effective and Efficient Visualizations**
+
+   Designing the best chart and visualization for each analysis to get the best visuals to highlight the desired insights.
+
+- 📖 **Storytelling optimization**  
+
+   At its core, data is just **numbers and text**—raw, overwhelming, and often confusing. To make analysis **understandable and persuasive**, storytelling is key. Instead of merely presenting SQL queries, tables, or charts, I built a **narrative story** that transforms complex results into **clear insights** for stakeholders who may not have technical expertise. 
+
+# **Challenges I Faced**
+
+- 📊 **Designing Dashboard Layout**
+
+   Choosing and designing the right dashboard layout that can cover and highlight all the chart in one compact dashboard page comprehensively is the biggest challenge in this project. Especially because its a year over year report, a different design approach is required to design and structured all the chart together
+
+- 🔍 **Analyzing the Visualization**
+
+   Flag the pattern, uderstanding what happened, building a report that covers all the findings, and conclude the best strategic recomendation as the answer of the analysis will always be a challenging but rewarding parts of all data analyst.
+
+- ⚖️ **Balancing breadth and depth**  
+  I had to constantly balance between going **deep into detailed analysis** and maintaining a **broad overview** of the data landscape. Striking this balance ensured that insights were comprehensive yet focused.
+
+🎯 This project demonstrates not only my technical ability to build advanced Tableau dashboards, but also my analytical thinking, storytelling skills, and business acumen — translating complex data into actionable insights that drive strategic decisions.
 
 # 🖥️ **How to Use**  
 
